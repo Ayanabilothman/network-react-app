@@ -1,0 +1,61 @@
+:root {
+  --dark-green: #08514A;
+  --yellow: #FDB136;
+  --light-green: #00A19B;
+  --light-grey: #e4e4e4;
+  --grey: #cbc8c8;
+  --light-grey: rgba(203, 200, 200, 0.7);
+  --lighter-green: #80D0CD;
+  --green: rgba(128, 208, 205,0.8);
+}
+
+body {
+  background-color: var(--light-grey);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.bg-grey {
+  background-color: var(--light-grey);
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+hr {
+  margin: 0 !important;
+}
+
+ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+
+}
+
+
+#alert {
+  z-index: 999999;
+  background-color: var(--dark-green);
+  color: white;
+}
+
+.small-font{
+  font-size: 0.75rem;
+}
+
+
+#followers {
+  margin-top: 7rem;
+}

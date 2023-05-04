@@ -1,0 +1,89 @@
+nav {
+    background-color: var(--dark-green);
+    color: white !important;
+    z-index: 99999;
+}
+
+.navbar-nav a {
+    font-size: 0.85rem !important;
+}
+
+nav a {
+    color: inherit !important;
+}
+
+input[type='search'] {
+    background-color: white !important;
+    border-radius: 0px !important;
+}
+
+#search-btn {
+    border-color: white !important;
+    border-radius: 0px !important;
+    background-color: white !important;
+}
+
+#search-btn i {
+    color: var(--dark-green) !important
+}
+
+#userBtn {
+    border-left: 1px solid var(--lighter-green);
+    border-right: 1px solid var(--lighter-green);
+    padding: 0 1rem !important;
+}
+
+strong {
+    text-decoration: none !important;
+    font-size: 0.9rem;
+}
+
+#userBtn img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    object-position: 50% 0%;
+    border-radius: 50%;
+}
+
+.dropDown {
+    top: 134%;
+    left: 1rem;
+    right: 0;
+    background-color: var(--dark-green) !important;
+    z-index: 55555555555;
+}
+.dropDown li {
+    margin: 0.5rem 0;
+    padding: 0 0.15rem;
+    cursor: pointer;
+}
+
+.dropDown li:hover {
+    background-color: white;
+    color: var(--dark-green)
+}
+
+.edit-password-form  {
+    background-color: rgb(54, 51, 51);
+}
+
+#edit-password-bg {
+    background-color: var(--light-grey);
+    z-index: 9999;
+}
+
+.nav-item:hover a {
+    border-bottom: 2px solid var(--light-grey);
+}
+
+.notification-alert {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    margin: auto;
+    top: -10px;
+    right: 16px;
+}

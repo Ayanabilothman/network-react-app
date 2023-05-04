@@ -1,0 +1,7 @@
+.left, .right {
+    width: 23% !important;
+}
+
+.right {
+    left: 72%
+}

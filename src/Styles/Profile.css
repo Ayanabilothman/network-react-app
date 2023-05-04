@@ -1,0 +1,10 @@
+.profile-picture img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    transform: translateY(-30%) translateX(60%);
+}
+
+.btn-yellow {
+    background-color: var(--yellow) !important;
+}

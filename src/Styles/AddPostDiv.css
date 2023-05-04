@@ -1,0 +1,27 @@
+.add-post {
+    border-top: 0.25rem solid var(--yellow) !important;
+    border: 2px solid var(--light-grey);
+    padding: 1rem;
+}
+.add-post .img-post-div {
+    width: 12%
+}
+
+.add-post .text-post-div {
+    background-color: var(--light-grey);
+    width: 88%;
+    cursor: pointer;
+}
+.add-post img {
+    height: 55px;
+    width: 55px;
+    object-fit: cover;
+    object-position: 50% 0%;
+    border-radius: 50%;
+}
+
+
+
+.add-post div:hover {
+    background-color: var(--grey);
+}

@@ -1,0 +1,22 @@
+.custom-file-input::-webkit-file-upload-button {
+    display: none;
+}
+
+.custom-file-input {
+    visibility: hidden;
+}
+
+#image-custom-label{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0px !important;
+    background-color: var(--lighter-green) !important;
+    border: none !important;
+    padding-left: 0.75rem;
+    padding-top: 0.25rem;
+    color: #6c757d;
+    font-weight: 400;
+}

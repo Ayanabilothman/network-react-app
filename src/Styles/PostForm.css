@@ -1,0 +1,70 @@
+#add-post-bg {
+    background-color: var(--light-grey);
+    z-index: 9999;
+}
+
+.add-post-form {
+    background-color: var(--dark-green);
+    opacity: 1 !important;
+}
+
+.add-post-heading {
+    border-bottom: 2px solid var(--grey) !important;
+}
+
+.add-post-user img {
+    height: 55px;
+    width: 55px;
+    object-fit: cover;
+    object-position: 50% 0%;
+    border-radius: 50%;
+}
+
+select {
+    background-color: var(--light-grey);
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+}
+
+option {
+    background-color: var(--light-grey);
+    border-radius: 0.25rem;
+}
+
+textarea {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: white;
+}
+textarea::placeholder {
+    color: var(--light-grey)
+}
+
+.add-post-button button {
+    background-color: var(--light-green);
+}
+
+.add-post-button button:hover {
+    background-color: var(--lighter-green) !important;
+}
+
+.add-post-emoji i {
+    font-size: 1.5rem;
+}
+
+.add-post-emoji:hover i {
+    color: var(--grey) !important;
+}
+
+.emoji-picker {
+    transform: translateX(50%);
+    bottom: 3.5rem;
+}
+
+.emoji-picker-react {
+    box-shadow: 0 5px 10px #5c5959 !important;
+}

@@ -1,0 +1,27 @@
+.comment img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    object-position: 50% 0%;
+    border-radius: 50%;
+}
+
+.comment .img-comment-div {
+    width: 8%
+}
+
+.comment .text-comment-div {
+    border-radius: 0.25rem;
+    background-color: var(--light-grey);
+    width: 92%;
+    cursor: pointer;
+}
+
+.edit-comment-form  {
+    background-color: rgb(54, 51, 51);
+}
+
+#edit-comment-bg {
+    background-color: var(--light-grey);
+    z-index: 9999;
+}

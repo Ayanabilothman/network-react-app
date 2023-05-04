@@ -1,0 +1,37 @@
+.yellow-bg{
+    height: 130px;
+    background-color: var(--yellow);
+}
+
+.yellow-bg img {
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    object-position: 50% 0%;
+    border-radius: 50%;
+    transform: translate(-50%, 50%);
+    border: 0.325rem solid white;
+}
+
+.white-bg {
+    border: 2px solid var(--grey)
+}
+
+.brief-info {
+    padding: 5rem 0 2rem;
+    border-bottom: 1px solid var(--grey);
+}
+
+.white-bg .f {
+    color: rgba(0,0,0,0.8);
+    border-bottom: 1px solid var(--grey);
+}
+.white-bg .f small{
+    color: rgba(0,0,0,0.5);
+}
+
+.view-profile a {
+    color: var(--dark-green) !important;
+    font-weight: 700;
+    text-decoration: underline !important;
+}

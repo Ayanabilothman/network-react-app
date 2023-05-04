@@ -1,0 +1,35 @@
+.single-post img {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    object-position: 50% 0%;
+    border-radius: 50%;
+}
+
+.single-post {
+    border-top: 0.25rem solid var(--dark-green) !important;
+    border: 2px solid var(--light-grey);
+}
+
+.dots-icons i:hover {
+    background-color: var(--grey);
+}
+
+.actions-icons ul li {
+    background-color: var(--dark-green);
+    color: white;
+    padding: 0.5rem !important;
+}
+
+.actions-icons ul li:hover {
+    background-color: var(--light-green);
+}
+
+.comment-input input{
+    width: 100%;
+    background-color: var(--light-grey);
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+    padding: 1rem
+}

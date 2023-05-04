@@ -1,0 +1,14 @@
+.bg-black-light {
+    background-color: rgba(0,0,0,0.9)
+}
+.bg-light-black {
+    background-color: rgb(31, 29, 29)
+}
+
+#cropper label {
+    color: var(--light-grey) !important;
+}
+
+#cropper {
+    background-color: var(--light-grey);
+}

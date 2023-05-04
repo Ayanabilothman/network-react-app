@@ -1,0 +1,29 @@
+#login-page {
+    min-height: 100vh !important;
+    display: flex;
+    align-items: center;
+}
+
+.login-col {
+    height: 80%;
+}
+
+.login-container {
+    background: var(--yellow) !important;
+    border-radius: 1.5rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%)
+}
+
+label {
+    font-weight: 500;
+}
+
+.invalid-feedback {
+    display: block !important;
+    color: white !important;
+}
+
+strong {
+    text-decoration: underline;
+    cursor: pointer;
+}
